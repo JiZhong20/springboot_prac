@@ -5,3 +5,8 @@ server:
 spring:
   thymeleaf:
     cache: false
+  mvc:
+    date-format: yyyy-MM-dd
+    hiddenmethod:
+      filter:
+        enabled: true
